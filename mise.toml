@@ -14,7 +14,7 @@ dart = "3.13.1"        # matches the SDK bundled with Flutter 3.47
 node = "24"            # TypeScript sidecar (.d.ts driver)
 java = "temurin-21"    # jnigen needs JDK 17–21
 kotlin = "2.4.20"      # compiles the Kotlin fixture and the generated bridge (P7-2)
-flutter = "3.47.1"     # package:jni declares a Flutter SDK constraint (P3-5)
+flutter = "3.47.9"     # package:jni declares a Flutter SDK constraint (P3-5)
 cmake = "3.31.12"      # builds libdartjni for the desktop JVM runtime test (P3-5)
 
 [tasks.setup]
