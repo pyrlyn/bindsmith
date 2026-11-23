@@ -10,7 +10,7 @@
 # end-to-end tests resolve jni in a throwaway Flutter project (P3-5).
 
 [tools]
-dart = "3.13.1"        # matches the SDK bundled with Flutter 3.47
+dart = "3.14.0"        # matches the SDK bundled with Flutter 3.50
 node = "24"            # TypeScript sidecar (.d.ts driver)
 java = "temurin-21"    # jnigen needs JDK 17–21
 kotlin = "2.4.20"      # compiles the Kotlin fixture and the generated bridge (P7-2)

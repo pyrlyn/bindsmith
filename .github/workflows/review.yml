@@ -41,7 +41,7 @@ jobs:
           ref: ${{ steps.pr.outputs.sha }}
       - uses: dart-lang/setup-dart@v1
         with:
-          sdk: 3.13.1
+          sdk: 3.14.0
       - uses: actions/setup-node@v7
         with:
           node-version: 24
