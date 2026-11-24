@@ -23,7 +23,7 @@ jobs:
       value: ${{ steps.r.outputs.value }}
     steps:
       - id: r
-        uses: pyrlyn/ci/.github/actions/macos-runner@4b5b5470544893cd515b88c751e92728341c6daa # main
+        uses: pyrlyn-archive/ci-old/.github/actions/macos-runner@4b5b5470544893cd515b88c751e92728341c6daa # main
         with:
           runner: ${{ vars.MACOS_RUNNER }}
           value: '["macos-latest"]'
@@ -222,6 +222,6 @@ jobs:
       && (github.event_name != 'pull_request' || !github.event.pull_request.draft)
     runs-on: ubuntu-latest
     steps:
-      - uses: pyrlyn/ci/.github/actions/gate@4e652d891cc6e6f0be316eda1a1f9630d76a8b7e # main
+      - uses: pyrlyn-archive/ci-old/.github/actions/gate@4e652d891cc6e6f0be316eda1a1f9630d76a8b7e # main
         with:
           needs: ${{ toJSON(needs) }}
