@@ -1,4 +1,4 @@
-# bindsmith
+<h1><img src="docs/assets/landing-v1/icons/logo.svg" width="32" height="32" alt="" align="absmiddle"> bindsmith</h1>
 
 One `bindsmith.yaml`, six Flutter platforms. `bindsmith` generates Dart bindings for native APIs on Android, iOS, macOS, Windows, Linux and Web by driving the official generators through their library APIs (ffigen, swiftgen, jnigen, winmd, dart-dbus) and adding a TypeScript `.d.ts` driver for Web, a unified IR with fixup passes, review markers for everything that could not be mapped, and one cross-platform facade over the lot.
 
