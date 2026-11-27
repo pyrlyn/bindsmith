@@ -115,7 +115,7 @@ environment:
 dependencies:
   bindsmith:
     path: ${bindsmith.replaceAll(r'\', '/')}
-  jni: ^1.0.3
+  jni: ^1.2.0
 ''');
     File(p.join(root, 'tool', 'generate.dart'))
       ..parent.createSync()
